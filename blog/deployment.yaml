@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: blog
-          image: rg.fr-par.scw.cloud/namespace-aial/blog:v0.0.1
+          image: rg.fr-par.scw.cloud/namespace-aial/blog:v.0.0.1
           ports:
             - containerPort: 80
       imagePullSecrets:
