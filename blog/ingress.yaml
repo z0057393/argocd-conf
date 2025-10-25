@@ -6,6 +6,10 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: traefik
 spec:
+  tls:
+    - hosts:
+        - z0057393.com
+      secretName: letsencrypt-prod-pub
   rules:
     - host: z0057393.com
       http:
