@@ -9,8 +9,11 @@ spec:
   tls:
     - hosts:
         - z0057393.com
-        - www.z0057393.com
       secretName: letsencrypt-prod-pub
+    - hosts:
+        - www.z0057393.com
+      secretName: letsencrypt-prod-www
+
   rules:
     - host: z0057393.com
       http:
